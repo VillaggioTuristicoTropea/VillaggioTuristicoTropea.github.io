@@ -1,0 +1,7 @@
+body{background-image:url(Ombrello.jpg);background-size:100px}
+#Intestazione{background-image:url("https://cache.marriott.com/marriottassets/marriott/OLBRL/olbrl-beach-6113-hor-feat.jpg?interpolation=progressive-bilinear&downsize=2000px:*");background-position: center right;width:500;height:80px;text-align: center;margin:auto;border-radius:10px;color:lightgreen;text-shadow: 4px 1px black;font-family:Tahoma;border-color:black;border-style:groove;}
+div{background-color: antiquewhite; height:40px;border-radius:5px;color:royalblue;border-color:black;border-style:groove; margin-top:5px}
+li{display:inline;font-family:Verdana;}
+
+img{width:800;margin-top:10%;border-color:black;border-style:dotted;border-radius:40px}
+#Prenotazione{margin:auto;antiquewhite; height:500px;border-radius:5px;color:royalblue;border-color:black;border-style:groove; margin-top:20px;width:400px}

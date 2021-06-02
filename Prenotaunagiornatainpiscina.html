@@ -1,0 +1,36 @@
+<html>
+<head>
+<link rel="icon" href="Ombrello.ico" type="image/x-icon" />
+
+<link href="stile.css" rel="stylesheet" type="text/css">
+<title>
+Prenota Una Vacanza
+</title>
+</head>
+<body vlink="royalblue" alink="royalblue" link="royalblue">
+<table>
+<tr>
+<header>
+<h1 id="Intestazione">Villaggio Turistico Tropea</h1>
+</header> 
+<input align="left" value="Home" type="button" onClick="window.close()" style="float:left;color:red;font-size:23px;font-family:monotype corsiva;background-color:burlywood;margin-top:50px" />
+<div id="Prenotazione" align="center">
+<p style="font-size:35px">Prenota una giornata in Piscina</p>
+<p>Numero di telefono</p>
+<input id="email" type="text" />
+<p>Scrivi il tuo messaggio</p>
+<textarea id="Body" rows="10" cols="30"></textarea> <br/>
+<input type="button" onClick="Email()" value="Manda la Richiesta" style="color:red;font-size:23px;font-family:monotype corsiva;background-color:burlywood;margin-top:50px"/>
+</div>
+</tr>
+</table>
+</body>
+</html>
+<script>
+function Email()
+{
+var email=document.getElementById("email").value;
+var messaggio=document.getElementById("Body").value;
+location.href = "mailto:laura.cotroneo@studenti.liceozaleuco.it?Subject=Prenotazione Piscina&Body=" + "+39" + email + ";  " + messaggio;
+}
+</script>
